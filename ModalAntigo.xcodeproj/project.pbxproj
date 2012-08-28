@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A6E731A15ED002700B49D35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6E731915ED002700B49D35 /* UIKit.framework */; };
+		6A6E731C15ED002700B49D35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6E731B15ED002700B49D35 /* Foundation.framework */; };
+		6A6E731E15ED002700B49D35 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6E731D15ED002700B49D35 /* CoreGraphics.framework */; };
+		6A6E732415ED002700B49D35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A6E732215ED002700B49D35 /* InfoPlist.strings */; };
+		6A6E732615ED002700B49D35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E732515ED002700B49D35 /* main.m */; };
+		6A6E732A15ED002700B49D35 /* PrincipalAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E732915ED002700B49D35 /* PrincipalAppDelegate.m */; };
+		6A6E732D15ED002700B49D35 /* PrincipalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E732C15ED002700B49D35 /* PrincipalViewController.m */; };
+		6A6E733015ED002700B49D35 /* PrincipalViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A6E732E15ED002700B49D35 /* PrincipalViewController_iPhone.xib */; };
+		6A6E733315ED002700B49D35 /* PrincipalViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A6E733115ED002700B49D35 /* PrincipalViewController_iPad.xib */; };
+		6A6E733B15ED002800B49D35 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6E733A15ED002800B49D35 /* SenTestingKit.framework */; };
+		6A6E733C15ED002800B49D35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6E731915ED002700B49D35 /* UIKit.framework */; };
+		6A6E733D15ED002800B49D35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6E731B15ED002700B49D35 /* Foundation.framework */; };
+		6A6E734515ED002800B49D35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A6E734315ED002800B49D35 /* InfoPlist.strings */; };
+		6A6E734815ED002800B49D35 /* ModalAntigoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E734715ED002800B49D35 /* ModalAntigoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A6E733E15ED002800B49D35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A6E730C15ED002700B49D35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A6E731415ED002700B49D35;
+			remoteInfo = ModalAntigo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A6E731515ED002700B49D35 /* ModalAntigo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModalAntigo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A6E731915ED002700B49D35 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6A6E731B15ED002700B49D35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6A6E731D15ED002700B49D35 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6A6E732115ED002700B49D35 /* ModalAntigo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ModalAntigo-Info.plist"; sourceTree = "<group>"; };
+		6A6E732315ED002700B49D35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A6E732515ED002700B49D35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A6E732715ED002700B49D35 /* ModalAntigo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ModalAntigo-Prefix.pch"; sourceTree = "<group>"; };
+		6A6E732815ED002700B49D35 /* PrincipalAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrincipalAppDelegate.h; sourceTree = "<group>"; };
+		6A6E732915ED002700B49D35 /* PrincipalAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrincipalAppDelegate.m; sourceTree = "<group>"; };
+		6A6E732B15ED002700B49D35 /* PrincipalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrincipalViewController.h; sourceTree = "<group>"; };
+		6A6E732C15ED002700B49D35 /* PrincipalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrincipalViewController.m; sourceTree = "<group>"; };
+		6A6E732F15ED002700B49D35 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PrincipalViewController_iPhone.xib; sourceTree = "<group>"; };
+		6A6E733215ED002700B49D35 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PrincipalViewController_iPad.xib; sourceTree = "<group>"; };
+		6A6E733915ED002800B49D35 /* ModalAntigoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModalAntigoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A6E733A15ED002800B49D35 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6A6E734215ED002800B49D35 /* ModalAntigoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ModalAntigoTests-Info.plist"; sourceTree = "<group>"; };
+		6A6E734415ED002800B49D35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A6E734615ED002800B49D35 /* ModalAntigoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModalAntigoTests.h; sourceTree = "<group>"; };
+		6A6E734715ED002800B49D35 /* ModalAntigoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModalAntigoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A6E731215ED002700B49D35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A6E731A15ED002700B49D35 /* UIKit.framework in Frameworks */,
+				6A6E731C15ED002700B49D35 /* Foundation.framework in Frameworks */,
+				6A6E731E15ED002700B49D35 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A6E733515ED002800B49D35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A6E733B15ED002800B49D35 /* SenTestingKit.framework in Frameworks */,
+				6A6E733C15ED002800B49D35 /* UIKit.framework in Frameworks */,
+				6A6E733D15ED002800B49D35 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A6E730A15ED002700B49D35 = {
+			isa = PBXGroup;
+			children = (
+				6A6E731F15ED002700B49D35 /* ModalAntigo */,
+				6A6E734015ED002800B49D35 /* ModalAntigoTests */,
+				6A6E731815ED002700B49D35 /* Frameworks */,
+				6A6E731615ED002700B49D35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A6E731615ED002700B49D35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A6E731515ED002700B49D35 /* ModalAntigo.app */,
+				6A6E733915ED002800B49D35 /* ModalAntigoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A6E731815ED002700B49D35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A6E731915ED002700B49D35 /* UIKit.framework */,
+				6A6E731B15ED002700B49D35 /* Foundation.framework */,
+				6A6E731D15ED002700B49D35 /* CoreGraphics.framework */,
+				6A6E733A15ED002800B49D35 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A6E731F15ED002700B49D35 /* ModalAntigo */ = {
+			isa = PBXGroup;
+			children = (
+				6A6E732815ED002700B49D35 /* PrincipalAppDelegate.h */,
+				6A6E732915ED002700B49D35 /* PrincipalAppDelegate.m */,
+				6A6E732B15ED002700B49D35 /* PrincipalViewController.h */,
+				6A6E732C15ED002700B49D35 /* PrincipalViewController.m */,
+				6A6E732E15ED002700B49D35 /* PrincipalViewController_iPhone.xib */,
+				6A6E733115ED002700B49D35 /* PrincipalViewController_iPad.xib */,
+				6A6E732015ED002700B49D35 /* Supporting Files */,
+			);
+			path = ModalAntigo;
+			sourceTree = "<group>";
+		};
+		6A6E732015ED002700B49D35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A6E732115ED002700B49D35 /* ModalAntigo-Info.plist */,
+				6A6E732215ED002700B49D35 /* InfoPlist.strings */,
+				6A6E732515ED002700B49D35 /* main.m */,
+				6A6E732715ED002700B49D35 /* ModalAntigo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A6E734015ED002800B49D35 /* ModalAntigoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A6E734615ED002800B49D35 /* ModalAntigoTests.h */,
+				6A6E734715ED002800B49D35 /* ModalAntigoTests.m */,
+				6A6E734115ED002800B49D35 /* Supporting Files */,
+			);
+			path = ModalAntigoTests;
+			sourceTree = "<group>";
+		};
+		6A6E734115ED002800B49D35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A6E734215ED002800B49D35 /* ModalAntigoTests-Info.plist */,
+				6A6E734315ED002800B49D35 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A6E731415ED002700B49D35 /* ModalAntigo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A6E734B15ED002800B49D35 /* Build configuration list for PBXNativeTarget "ModalAntigo" */;
+			buildPhases = (
+				6A6E731115ED002700B49D35 /* Sources */,
+				6A6E731215ED002700B49D35 /* Frameworks */,
+				6A6E731315ED002700B49D35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ModalAntigo;
+			productName = ModalAntigo;
+			productReference = 6A6E731515ED002700B49D35 /* ModalAntigo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A6E733815ED002800B49D35 /* ModalAntigoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A6E734E15ED002800B49D35 /* Build configuration list for PBXNativeTarget "ModalAntigoTests" */;
+			buildPhases = (
+				6A6E733415ED002800B49D35 /* Sources */,
+				6A6E733515ED002800B49D35 /* Frameworks */,
+				6A6E733615ED002800B49D35 /* Resources */,
+				6A6E733715ED002800B49D35 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A6E733F15ED002800B49D35 /* PBXTargetDependency */,
+			);
+			name = ModalAntigoTests;
+			productName = ModalAntigoTests;
+			productReference = 6A6E733915ED002800B49D35 /* ModalAntigoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A6E730C15ED002700B49D35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Principal;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Rafael Brigagão Paulino";
+			};
+			buildConfigurationList = 6A6E730F15ED002700B49D35 /* Build configuration list for PBXProject "ModalAntigo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6A6E730A15ED002700B49D35;
+			productRefGroup = 6A6E731615ED002700B49D35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A6E731415ED002700B49D35 /* ModalAntigo */,
+				6A6E733815ED002800B49D35 /* ModalAntigoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A6E731315ED002700B49D35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A6E732415ED002700B49D35 /* InfoPlist.strings in Resources */,
+				6A6E733015ED002700B49D35 /* PrincipalViewController_iPhone.xib in Resources */,
+				6A6E733315ED002700B49D35 /* PrincipalViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A6E733615ED002800B49D35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A6E734515ED002800B49D35 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A6E733715ED002800B49D35 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A6E731115ED002700B49D35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A6E732615ED002700B49D35 /* main.m in Sources */,
+				6A6E732A15ED002700B49D35 /* PrincipalAppDelegate.m in Sources */,
+				6A6E732D15ED002700B49D35 /* PrincipalViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A6E733415ED002800B49D35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A6E734815ED002800B49D35 /* ModalAntigoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A6E733F15ED002800B49D35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A6E731415ED002700B49D35 /* ModalAntigo */;
+			targetProxy = 6A6E733E15ED002800B49D35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A6E732215ED002700B49D35 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A6E732315ED002700B49D35 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6A6E732E15ED002700B49D35 /* PrincipalViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A6E732F15ED002700B49D35 /* en */,
+			);
+			name = PrincipalViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		6A6E733115ED002700B49D35 /* PrincipalViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A6E733215ED002700B49D35 /* en */,
+			);
+			name = PrincipalViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		6A6E734315ED002800B49D35 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A6E734415ED002800B49D35 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A6E734915ED002800B49D35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A6E734A15ED002800B49D35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A6E734C15ED002800B49D35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ModalAntigo/ModalAntigo-Prefix.pch";
+				INFOPLIST_FILE = "ModalAntigo/ModalAntigo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6A6E734D15ED002800B49D35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ModalAntigo/ModalAntigo-Prefix.pch";
+				INFOPLIST_FILE = "ModalAntigo/ModalAntigo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6A6E734F15ED002800B49D35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ModalAntigo.app/ModalAntigo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ModalAntigo/ModalAntigo-Prefix.pch";
+				INFOPLIST_FILE = "ModalAntigoTests/ModalAntigoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6A6E735015ED002800B49D35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ModalAntigo.app/ModalAntigo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ModalAntigo/ModalAntigo-Prefix.pch";
+				INFOPLIST_FILE = "ModalAntigoTests/ModalAntigoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A6E730F15ED002700B49D35 /* Build configuration list for PBXProject "ModalAntigo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A6E734915ED002800B49D35 /* Debug */,
+				6A6E734A15ED002800B49D35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A6E734B15ED002800B49D35 /* Build configuration list for PBXNativeTarget "ModalAntigo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A6E734C15ED002800B49D35 /* Debug */,
+				6A6E734D15ED002800B49D35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A6E734E15ED002800B49D35 /* Build configuration list for PBXNativeTarget "ModalAntigoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A6E734F15ED002800B49D35 /* Debug */,
+				6A6E735015ED002800B49D35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A6E730C15ED002700B49D35 /* Project object */;
+}

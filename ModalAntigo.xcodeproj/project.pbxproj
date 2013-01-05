@@ -21,6 +21,10 @@
 		6A6E733D15ED002800B49D35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6E731B15ED002700B49D35 /* Foundation.framework */; };
 		6A6E734515ED002800B49D35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A6E734315ED002800B49D35 /* InfoPlist.strings */; };
 		6A6E734815ED002800B49D35 /* ModalAntigoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E734715ED002800B49D35 /* ModalAntigoTests.m */; };
+		6A6E735415ED014300B49D35 /* SegundaTelaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E735215ED014300B49D35 /* SegundaTelaViewController.m */; };
+		6A6E735515ED014300B49D35 /* SegundaTelaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A6E735315ED014300B49D35 /* SegundaTelaViewController.xib */; };
+		6A6E735915ED04F600B49D35 /* TerceiraTelaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E735715ED04F600B49D35 /* TerceiraTelaViewController.m */; };
+		6A6E735A15ED04F600B49D35 /* TerceiraTelaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A6E735815ED04F600B49D35 /* TerceiraTelaViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,12 @@
 		6A6E734415ED002800B49D35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A6E734615ED002800B49D35 /* ModalAntigoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModalAntigoTests.h; sourceTree = "<group>"; };
 		6A6E734715ED002800B49D35 /* ModalAntigoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModalAntigoTests.m; sourceTree = "<group>"; };
+		6A6E735115ED014300B49D35 /* SegundaTelaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegundaTelaViewController.h; sourceTree = "<group>"; };
+		6A6E735215ED014300B49D35 /* SegundaTelaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegundaTelaViewController.m; sourceTree = "<group>"; };
+		6A6E735315ED014300B49D35 /* SegundaTelaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SegundaTelaViewController.xib; sourceTree = "<group>"; };
+		6A6E735615ED04F600B49D35 /* TerceiraTelaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TerceiraTelaViewController.h; sourceTree = "<group>"; };
+		6A6E735715ED04F600B49D35 /* TerceiraTelaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TerceiraTelaViewController.m; sourceTree = "<group>"; };
+		6A6E735815ED04F600B49D35 /* TerceiraTelaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TerceiraTelaViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +128,12 @@
 				6A6E732B15ED002700B49D35 /* PrincipalViewController.h */,
 				6A6E732C15ED002700B49D35 /* PrincipalViewController.m */,
 				6A6E732E15ED002700B49D35 /* PrincipalViewController_iPhone.xib */,
+				6A6E735115ED014300B49D35 /* SegundaTelaViewController.h */,
+				6A6E735215ED014300B49D35 /* SegundaTelaViewController.m */,
+				6A6E735315ED014300B49D35 /* SegundaTelaViewController.xib */,
+				6A6E735615ED04F600B49D35 /* TerceiraTelaViewController.h */,
+				6A6E735715ED04F600B49D35 /* TerceiraTelaViewController.m */,
+				6A6E735815ED04F600B49D35 /* TerceiraTelaViewController.xib */,
 				6A6E733115ED002700B49D35 /* PrincipalViewController_iPad.xib */,
 				6A6E732015ED002700B49D35 /* Supporting Files */,
 			);
@@ -229,6 +245,8 @@
 				6A6E732415ED002700B49D35 /* InfoPlist.strings in Resources */,
 				6A6E733015ED002700B49D35 /* PrincipalViewController_iPhone.xib in Resources */,
 				6A6E733315ED002700B49D35 /* PrincipalViewController_iPad.xib in Resources */,
+				6A6E735515ED014300B49D35 /* SegundaTelaViewController.xib in Resources */,
+				6A6E735A15ED04F600B49D35 /* TerceiraTelaViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +284,8 @@
 				6A6E732615ED002700B49D35 /* main.m in Sources */,
 				6A6E732A15ED002700B49D35 /* PrincipalAppDelegate.m in Sources */,
 				6A6E732D15ED002700B49D35 /* PrincipalViewController.m in Sources */,
+				6A6E735415ED014300B49D35 /* SegundaTelaViewController.m in Sources */,
+				6A6E735915ED04F600B49D35 /* TerceiraTelaViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

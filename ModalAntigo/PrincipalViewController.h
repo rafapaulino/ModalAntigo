@@ -10,4 +10,5 @@
 
 @interface PrincipalViewController : UIViewController
 
+-(IBAction)botaoClicado:(id)sender;
 @end
